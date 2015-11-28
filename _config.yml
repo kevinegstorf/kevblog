@@ -17,3 +17,4 @@ github_username:  kevinegstorf
 # Build settings
 markdown: redcarpet
 permalink: /:title
+exclude: [vendor]
