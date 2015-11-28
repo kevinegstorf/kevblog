@@ -6,3 +6,5 @@ gem 'rack-jekyll'
 gem 'html-proofer'
 gem 'redcarpet'
 gem 'github-pages'
+
+gem 'sass'
