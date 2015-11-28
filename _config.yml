@@ -12,9 +12,9 @@ description: This is a Blog about RoR techniques
 url: "http://railsdevkev.com" # the base hostname & protocol for your site
 twitter_username: kevinegstorf
 github_username:  kevinegstorf
+exclude: [vendor]
 
 
 # Build settings
 markdown: redcarpet
 permalink: /:title
-exclude: [vendor]
