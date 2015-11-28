@@ -8,8 +8,7 @@ before_script:
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
 script: ./script/cibuild
-script:
-  - '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && bundle exec rake tests:integration || false'
+script: rake travis
 
 # branch whitelist, only for GitHub Pages
 branches:
